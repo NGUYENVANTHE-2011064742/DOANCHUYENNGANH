@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.SplashActivity"
+    android:background="#f0f8ff"
+
+    >
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="508dp"
+        android:layout_height="351dp"
+        android:layout_gravity="center|top"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/banner" />
+
+    <TextView
+
+        android:id="@+id/txtwelcomex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/baloo"
+        android:gravity="center_horizontal"
+        android:paddingTop="80dp"
+
+        android:text="Welcome"
+        android:textColor="@color/black"
+        android:textSize="60sp" />
+
+    <TextView
+        android:layout_width="201dp"
+
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/bangers"
+        android:gravity="center_horizontal"
+        android:paddingTop="180dp"
+        android:text="20DTHC2"
+        android:textColor="@color/black"
+        android:textSize="60sp" />
+
+    <TextView
+        android:id="@+id/txtCoffeeshop"
+        android:layout_width="248dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp"
+        android:fontFamily="@font/bangers"
+        android:gravity="center_horizontal"
+        android:paddingTop="180dp"
+        android:text="Ăn Vặt TTH"
+        android:textColor="@color/black"
+        android:textSize="60sp" />
+
+    <TextView
+        android:paddingTop="50dp"
+        android:id="@+id/txtPowered"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mại zo, Mại zo"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="30dp"
+        android:textSize="28sp"/>
+
+    <Button
+        android:id="@+id/btnsao"
+        android:layout_width="410dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="400dp"
+        android:background="@drawable/sao2"
+        android:paddingTop="100dp" />
+</FrameLayout>
